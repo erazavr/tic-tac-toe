@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+  <div class="container">
+   <h1>Крестики Нолики</h1> 
+   <p>Сейчас ходит <span id="currMove">X</span></p>
+  <div class="wrapper">
+    <div id="box">
+    </div>
+    <div class="stat">
+      <table>
+        <th colspan="2">Статистика</th>
+        <tr>
+          <td><strong>X:</strong></td>
+          <td><span id="sX">0</span></td>
+        </tr>
+        <tr>
+          <td><strong>O:</strong></td>
+          <td><span id="sO">0</span></td>
+        </tr>
+        <tr>
+          <td><strong>Ничья:</strong></td>
+          <td><span id="sD">0</span></td>
+        </tr>
+      </table>
+    </div>
+</div>
+  <button id="reset">Начать занаво</button>
+
+</div>
+  <script src="js/minimax.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
